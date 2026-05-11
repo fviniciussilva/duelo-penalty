@@ -1,5 +1,0 @@
-   #alterar para que quando acabar as chances e mostrar na tela suas chances acabaram ja pular pro proximo batedor 
-    #adicionar sons 
-    #pedir pra fazer arquivo download para baixar o jogo 
-    #subir no github
-    #postar no portfolio
