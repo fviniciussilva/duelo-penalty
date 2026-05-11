@@ -1,3 +1,5 @@
+
+```markdown
 # Super Penalty 2026 ⚽🕹️
 
 Um simulador arcade de cobranças de pênalti (Ronaldinho vs Kahn) desenvolvido em **Python** utilizando a biblioteca **Pygame**. Este projeto explora lógica de física de colisão, controle de estados, animações em tempo real e integração de hardware (HID).
@@ -6,15 +8,15 @@ Um simulador arcade de cobranças de pênalti (Ronaldinho vs Kahn) desenvolvido 
 
 Não quer instalar o Python? Sem problemas! 
 Você pode baixar o jogo pronto para rodar no Windows (arquivo `.exe`) diretamente na nossa página de Lançamentos:
-👉 **[Clique aqui para acessar a aba Releases e baixar o jogo]** *(Nota: Quando colar no LinkedIn, você pode colocar o link direto aqui)*
+👉 **[Clique aqui para acessar a aba Releases e baixar o jogo]**
 
 ## 🚀 Funcionalidades
 
 * **Integração DualShock 4:** Suporte completo para controle de PlayStation 4, mapeando botões de ação e eixo analógico para controle suave da mira.
 * **Game Feel e VFX:** * *Screen Shake:* Trepidação da câmera em defesas e chutes na trave.
-    * *Motion Blur:* Rastro visual acompanhando a trajetória da bola.
-    * *Dynamic Zoom:* Foco da câmera no batedor durante o momento da mira.
-    * *Screen Flash:* Feedback visual imersivo ao marcar um gol.
+  * *Motion Blur:* Rastro visual acompanhando a trajetória da bola.
+  * *Dynamic Zoom:* Foco da câmera no batedor durante o momento da mira.
+  * *Screen Flash:* Feedback visual imersivo ao marcar um gol.
 * **Sistema de Competição:** Ranking integrado para 12 jogadores simultâneos, com limite de 5 chutes por participante. Pulo automático de turno (Auto-Skip).
 * **Controle Híbrido:** Menus navegáveis via mouse; gameplay otimizada para controle/teclado.
 * **Detecção de Fim de Jogo:** Cálculo automático do vencedor com tela de celebração dinâmica.
@@ -31,27 +33,29 @@ Caso queira rodar o projeto direto do código-fonte, certifique-se de ter o Pyth
 
 ```bash
 pip install pygame
-🎮 Controles
-Menus
-Mouse Esquerdo: Confirmar opção
 
-Mouse Direito: Voltar à tela anterior
+```
 
-Durante o Jogo
-Setas do Teclado (Cima/Baixo): Trocar batedor
+## 🎮 Controles
 
-X (Controle) / Espaço (Teclado): Iniciar mira e ativar o foco
+### Menus
 
-Analógico Esquerdo (Controle): Mover a mira pelo gol
+* **Mouse Esquerdo:** Confirmar opção
+* **Mouse Direito:** Voltar à tela anterior
 
-Quadrado (Controle): Realizar o chute
+### Durante o Jogo
 
-Bolinha (Controle): Passar a vez após concluir os 5 chutes
+* **Setas do Teclado (Cima/Baixo):** Trocar batedor
+* **X (Controle) / Espaço (Teclado):** Iniciar mira e ativar o foco
+* **Analógico Esquerdo (Controle):** Mover a mira pelo gol
+* **Quadrado (Controle):** Realizar o chute
+* **Bolinha (Controle):** Passar a vez após concluir os 5 chutes
 
-📁 Estrutura do Projeto
-O projeto espera que os recursos visuais estejam em uma pasta assets no mesmo diretório do script principal:
+## 📁 Estrutura do Projeto
 
-Plaintext
+O projeto espera que os recursos visuais estejam em uma pasta `assets` no mesmo diretório do script principal:
+
+```text
 ├── penalty.py
 ├── Artigo_Super_Penalty_Atualizado.pdf
 └── assets/
@@ -65,9 +69,17 @@ Plaintext
     ├── kahn_esquerda.png
     ├── kahn_direita.png
     └── logo_transparente.png
-📄 Artigo Científico / Relatório Técnico
-O embasamento teórico, a metodologia de desenvolvimento (incluindo o uso da Máquina de Estados Finita e Inteligência Artificial) e as conclusões do projeto estão documentados no arquivo Artigo_Super_Penalty_Atualizado.pdf, formatado nas normas da ABNT, disponível na raiz deste repositório.
 
-👨‍💻 Desenvolvedor
-Fernando Vinícius da Silva
+```
+
+## 📄 Artigo Científico / Relatório Técnico
+
+O embasamento teórico, a metodologia de desenvolvimento (incluindo o uso da Máquina de Estados Finita e Inteligência Artificial) e as conclusões do projeto estão documentados no arquivo **`Artigo_Super_Penalty_Atualizado.pdf`**, formatado nas normas da ABNT, disponível na raiz deste repositório.
+
+## 👨‍💻 Desenvolvedor
+
+**Fernando Vinícius da Silva**
 Estudante de Análise e Desenvolvimento de Sistemas (ADS).
+
+```
+
