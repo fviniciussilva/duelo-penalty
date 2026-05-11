@@ -1,3 +1,4 @@
+```markdown
 # Super Penalty 2026 ⚽🕹️
 
 Um simulador arcade de cobranças de pênalti (Ronaldinho vs Kahn) desenvolvido em **Python** utilizando a biblioteca **Pygame**. Este projeto explora lógica de física de colisão, controle de estados, animações em tempo real e integração de hardware (HID).
@@ -24,3 +25,49 @@ Um simulador arcade de cobranças de pênalti (Ronaldinho vs Kahn) desenvolvido 
 Certifique-se de ter o Python instalado na sua máquina. Para instalar a dependência necessária do projeto, execute:
 ```bash
 pip install pygame
+
+```
+
+## 🎮 Controles
+
+### Menus
+
+* **Mouse Esquerdo:** Confirmar opção
+* **Mouse Direito:** Voltar à tela anterior
+
+### Durante o Jogo
+
+* **Setas do Teclado (Cima/Baixo):** Trocar batedor
+* **X (Controle) / Espaço (Teclado):** Iniciar mira e ativar o foco
+* **Analógico Esquerdo (Controle):** Mover a mira pelo gol
+* **Quadrado (Controle):** Realizar o chute
+* **Bolinha (Controle):** Reiniciar a jogada para o próximo pênalti
+
+## 📁 Estrutura do Projeto
+
+O projeto espera que os recursos visuais estejam em uma pasta `assets` no mesmo diretório do script principal:
+
+```text
+├── main.py
+└── assets/
+    ├── tela_inicial.png
+    ├── campo_2.png
+    ├── bola.png
+    ├── jogador.png
+    ├── ronaldinho_chute.png
+    ├── goleiro.png
+    ├── kahn_centro.png
+    ├── kahn_esquerda.png
+    ├── kahn_direita.png
+    └── logo_transparente.png
+
+```
+
+## 👨‍💻 Desenvolvedor
+
+**Fernando Vinícius da Silva**
+Estudante de Análise e Desenvolvimento de Sistemas (ADS).
+
+```
+
+```
