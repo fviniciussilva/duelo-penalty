@@ -23,7 +23,7 @@ Você pode baixar o jogo pronto para rodar no Windows (arquivo `.exe`) diretamen
 
 * **Python 3.12** e **Pygame 2.6** (Gerenciamento de gráficos, eventos e joysticks).
 * **Visual Studio Code (VS Code)** como IDE principal.
-* **Inteligência Artificial (Google Gemini):** Utilizada como assistente de pair-programming para estruturação lógica, refatoração de código, síntese generativa dos recursos visuais (assets/sprites) e documentação.
+* **Inteligência Artificial (Google Gemini):** Utilizada como assistente de programação para estruturação lógica, refatoração de código, síntese generativa dos recursos visuais (assets/sprites) e documentação.
 
 ## 📋 Pré-requisitos (Para Desenvolvedores)
 
