@@ -31,3 +31,43 @@ Caso queira rodar o projeto direto do código-fonte, certifique-se de ter o Pyth
 
 ```bash
 pip install pygame
+🎮 Controles
+Menus
+Mouse Esquerdo: Confirmar opção
+
+Mouse Direito: Voltar à tela anterior
+
+Durante o Jogo
+Setas do Teclado (Cima/Baixo): Trocar batedor
+
+X (Controle) / Espaço (Teclado): Iniciar mira e ativar o foco
+
+Analógico Esquerdo (Controle): Mover a mira pelo gol
+
+Quadrado (Controle): Realizar o chute
+
+Bolinha (Controle): Passar a vez após concluir os 5 chutes
+
+📁 Estrutura do Projeto
+O projeto espera que os recursos visuais estejam em uma pasta assets no mesmo diretório do script principal:
+
+Plaintext
+├── penalty.py
+├── Artigo_Super_Penalty_Atualizado.pdf
+└── assets/
+    ├── tela_inicial.png
+    ├── campo_2.png
+    ├── bola.png
+    ├── jogador.png
+    ├── ronaldinho_chute.png
+    ├── goleiro.png
+    ├── kahn_centro.png
+    ├── kahn_esquerda.png
+    ├── kahn_direita.png
+    └── logo_transparente.png
+📄 Artigo Científico / Relatório Técnico
+O embasamento teórico, a metodologia de desenvolvimento (incluindo o uso da Máquina de Estados Finita e Inteligência Artificial) e as conclusões do projeto estão documentados no arquivo Artigo_Super_Penalty_Atualizado.pdf, formatado nas normas da ABNT, disponível na raiz deste repositório.
+
+👨‍💻 Desenvolvedor
+Fernando Vinícius da Silva
+Estudante de Análise e Desenvolvimento de Sistemas (ADS).
